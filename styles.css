@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inter;
+}
+
+.hero {
+  width: 100vw;
+  height: 50vh;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+
+h1 {
+  font-size: 6rem;
+  letter-spacing: -0.35rem;
+}
+
+p {
+  font-size: 1rem;
+  color: rgb(69, 69, 69);
+}
+
+.btn {
+  font-size: 1rem;
+  border: none;
+  padding: 0.75rem 2rem;
+}
+
+.marg_top_small {
+  margin-top: 0.5rem;
+}
+
+.marg_top_md {
+  margin-top: 1.5rem;
+}
+
+.primary {
+  color: rgb(246, 246, 246);
+  background-color: rgb(39, 39, 39);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.project--0 {
+  background-color: aqua;
+  min-height: 50%;
+  min-width: 50%;
+  /* padding: 1rem 2rem; */
+}
+
+.project--1 {
+  height: 50%;
+  width: 50%;
+  background-color: orange;
+  padding: 1rem 2rem;
+}
+
+.project-item {
+  display: flex;
+  height: 40%;
+}
